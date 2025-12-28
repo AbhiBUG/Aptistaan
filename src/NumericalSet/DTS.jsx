@@ -11,7 +11,7 @@ const DTS = ({panel}) => {
          <div className="flex">
       <div className="flex-1 border-2 border-black">
         {/* Left half content */}
-        {data.qno}. {data.question} 
+        {data.qno}. {data.question}?
       </div>
       <div className="flex-1">
         {/* Right half content */}

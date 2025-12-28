@@ -1,6 +1,32 @@
 {
-    "qno" : 1,
-    "question" : "A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour?"
+    {
+  "qno": 1,
+  "question": "A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour",
+  "questionlist": {
+    "given": {
+      "type": "mcq",
+      "options": {
+        "A": "3.6",
+        "B": "7.2",
+        "C": "8.4",
+        "D": "10"
+      }
+    },
+    "tofind": "speed in km per hour",
+    "solution": {
+      "steps": [
+        "Convert distance from meters to kilometers: 600 m = 0.6 km",
+        "Convert time from minutes to hours: 5 minutes = 5/60 hours = 1/12 hour",
+        "Speed = Distance / Time",
+        "Speed = 0.6 ÷ (1/12) = 7.2 km/h"
+      ],
+      "correctOption": "B",
+      "answer": "7.2 km per hour"
+    }
+  }
+}
+
+    
 
 
 
