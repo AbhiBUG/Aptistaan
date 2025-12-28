@@ -1,64 +1,70 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import Split from "react-split";
-import DTS from '../NumericalSet/DTS'
-import RatioAndProportion from '../NumericalSet/RatioAndProportion';
-import Probability from '../NumericalSet/Probability';
-import SimpleInterest from '../NumericalSet/SimpleInterest';
-import StatisticsGraphical from '../NumericalSet/StatisticsGraphical';
-import StatisticsNumerical from'../NumericalSet/StatisticsNumerical';
 
-import {FaPlay} from 'react-icons/fa'
-import {RiRefreshLine} from 'react-icons/ri'
-import {IoIosArrowDown} from 'react-icons/io'
+import DTS from "../NumericalSet/DTS";
+import RatioAndProportion from "../NumericalSet/RatioAndProportion";
+import Probability from "../NumericalSet/Probability";
+import SimpleInterest from "../NumericalSet/SimpleInterest";
+import StatisticsGraphical from "../NumericalSet/StatisticsGraphical";
+import StatisticsNumerical from "../NumericalSet/StatisticsNumerical";
+
+import { FaPlay } from "react-icons/fa";
+import { RiRefreshLine } from "react-icons/ri";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Panel = ({ Topic }) => {
 
-     const topicComponents = {
-    "Distance, Time, Speed": <DTS/>,
-    "Ratio and Proportion": <RatioAndProportion />,
-    "Probability": <Probability />,
-    "Simple Interest": <SimpleInterest />,
-    "Statistics-Graphical": <StatisticsGraphical />,
-    "Statistics-Numerical": <StatisticsNumerical />
+  /* ✅ Store component references (NOT JSX) */
+  const topicComponents = {
+    "Distance, Time, Speed": DTS,
+    "Ratio and Proportion": RatioAndProportion,
+    "Probability": Probability,
+    "Simple Interest": SimpleInterest,
+    "Statistics-Graphical": StatisticsGraphical,
+    "Statistics-Numerical": StatisticsNumerical
   };
 
-    const [currentno,setCurrentno] = useState(0);
+  const [currentno, setCurrentno] = useState(0);
 
-        const handleplay = () =>
-    {
-      console.log("play");
-      
-    }
+  const handleplay = () => {
+    console.log("play");
+  };
+
+  /* ✅ Select component dynamically */
+  const SelectedTopicComponent = topicComponents[Topic];
 
   return (
-    <>
     <div className="h-screen w-full bg-white">
-{/* 
-      Start of navigation panel */}
-                  <div className="flex flex-row items-center justify-between px-5 bg-blue-400 w-full">
-                        <div className="flex flex-row items-center">
-                        <IoIosArrowDown />
-                        <h2 className="sticky top-0 bg-base-100 p-3 font-semibold text-black">
-                          Exercises
-                        </h2>
-                        </div>
-                        <div className="flex flex-row items-center space-x-3">
-                      
-                        <button className="text-white bg-black rounded-xl px-3" onClick={() => setCurrentno((prev) => Math.max(prev - 1, 0))}>
-                          prev
-                          </button>
-                            <FaPlay onClick={handleplay} className="cursor-pointer"/>
-                        <RiRefreshLine />
-                        <button className="text-white bg-black rounded-xl px-3"  onClick={() =>
-    setCurrentno((prev) => Math.min(prev + 1, games.length - 1))
-  } >
-                          Next
-                          </button>
-                          {}
-                        </div>
-              </div>
-{/* End of navigation panel */} 
+
+      {/* 🔹 Navigation Panel */}
+      <div className="flex flex-row items-center justify-between px-5 bg-blue-400 w-full">
+        <div className="flex flex-row items-center">
+          <IoIosArrowDown />
+          <h2 className="sticky top-0 bg-base-100 p-3 font-semibold text-black">
+            Exercises
+          </h2>
+        </div>
+
+        <div className="flex flex-row items-center space-x-3">
+          <button
+            className="text-white bg-black rounded-xl px-3"
+            onClick={() => setCurrentno((prev) => Math.max(prev - 1, 0))}
+          >
+            Prev
+          </button>
+
+          <FaPlay onClick={handleplay} className="cursor-pointer" />
+
+          <RiRefreshLine />
+
+          <button
+            className="text-white bg-black rounded-xl px-3"
+            onClick={() => setCurrentno((prev) => prev + 1)}
+          >
+            Next
+          </button>
+        </div>
+      </div>
 
       {/* ✅ Desktop Split View */}
       <div className="hidden md:block h-full">
@@ -77,35 +83,37 @@ const Panel = ({ Topic }) => {
             return gutter;
           }}
         >
-          {/* Left Panel */}
+          {/* 🔹 Left Panel */}
           <div className="p-4 flex flex-col h-full gap-4 overflow-hidden bg-white">
-            {/* {renderLeft} */}
-            {topicComponents[Topic]}
+            {SelectedTopicComponent && (
+              <SelectedTopicComponent
+                panel={0}
+                qno={currentno}
+              />
+            )}
+          </div>
+
+          {/* 🔹 Right Panel */}
+          <div className="h-full overflow-hidden bg-gray-200">
+            
+            {SelectedTopicComponent && (
+              <SelectedTopicComponent
+                panel={1}
+                qno={currentno}
+              />)}
+            {/* Future use */}
+
             
           </div>
-
-          {/* Right Panel */}
-          <div className="h-full overflow-hidden bg-grey-200">
-           
-
-
-
-          </div>
-
-
-
-
-
         </Split>
       </div>
 
-      
     </div>
-    </>
   );
 };
 
 export default Panel;
+
 
 
 
