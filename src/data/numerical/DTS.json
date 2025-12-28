@@ -1,65 +1,87 @@
 [
   {
     "qno": 1,
-    "question": "A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour",
-    
+    "question": "A man walks a distance of 900 m in 12 minutes. Find his speed in km per hour.",
     "questionlist": {
       "given": [
         {
           "qn": 1,
-          "question": "What among the following is given?",
+          "question": "What quantities are given in the question?",
           "type": "mcq",
           "options": {
-            "A": "Time",
-            "B": "Speed",
-            "C": "Distance",
-            "D": "Minutes"
+            "A": "Speed and Time",
+            "B": "Distance and Time",
+            "C": "Speed and Distance",
+            "D": "Only Speed"
           },
-          "solution": "A"
+          "solution": "B"
         },
         {
           "qn": 2,
-          "question": "Which unit is used for distance?",
+          "question": "What is the given distance?",
           "type": "mcq",
           "options": {
-            "A": "km",
-            "B": "hours",
-            "C": "minutes",
-            "D": "seconds"
+            "A": "12 m",
+            "B": "900 m",
+            "C": "90 m",
+            "D": "9 km"
           },
-          "solution": "A"
+          "solution": "B"
         },
         {
           "qn": 3,
-          "question": "Which quantity is converted into hours?",
+          "question": "What is the given time?",
+          "type": "mcq",
+          "options": {
+            "A": "12 seconds",
+            "B": "12 hours",
+            "C": "12 minutes",
+            "D": "120 minutes"
+          },
+          "solution": "C"
+        },
+        {
+          "qn": 4,
+          "question": "Which quantity must be converted into hours?",
           "type": "mcq",
           "options": {
             "A": "Distance",
             "B": "Speed",
             "C": "Time",
-            "D": "Street"
+            "D": "Meters"
           },
           "solution": "C"
+        },
+        {
+          "qn": 5,
+          "question": "Which unit is used for distance in the final formula?",
+          "type": "mcq",
+          "options": {
+            "A": "meters",
+            "B": "kilometers",
+            "C": "minutes",
+            "D": "seconds"
+          },
+          "solution": "B"
         }
       ]
     },
-
     "tofind": [
       {
         "qn": 1,
-        "question": "What needs to be found?",
+        "question": "What is required to be found?",
         "type": "mcq",
         "options": {
-          "A": "Time",
+          "A": "Distance",
           "B": "Speed",
-          "C": "Distance",
-          "D": "Minutes"
+          "C": "Time",
+          "D": "Acceleration"
         },
         "solution": "B"
       },
       {
         "qn": 2,
-        "question": "In which unit is the final answer required?",
+        "question": "In which unit is the answer required?",
         "type": "mcq",
         "options": {
           "A": "m/s",
@@ -71,25 +93,1513 @@
       },
       {
         "qn": 3,
-        "question": "Which formula is used?",
+        "question": "Which formula will be used?",
         "type": "mcq",
         "options": {
           "A": "Distance × Time",
-          "B": "Speed ÷ Time",
+          "B": "Speed × Time",
           "C": "Distance ÷ Time",
           "D": "Time ÷ Distance"
         },
         "solution": "C"
+      },
+      {
+        "qn": 4,
+        "question": "Which value will be placed in the numerator?",
+        "type": "mcq",
+        "options": {
+          "A": "Time",
+          "B": "Speed",
+          "C": "Distance",
+          "D": "Hours"
+        },
+        "solution": "C"
+      },
+      {
+        "qn": 5,
+        "question": "What is the converted time in hours?",
+        "type": "mcq",
+        "options": {
+          "A": "1/2",
+          "B": "1/5",
+          "C": "1/10",
+          "D": "1/20"
+        },
+        "solution": "C"
       }
     ],
-
     "solution": {
       "steps": [
-        "600 m = 0.6 km",
-        "5 minutes = 1/12 hour",
-        "Speed = 0.6 ÷ (1/12) = 7.2 km/hr"
+        "900 m = 0.9 km",
+        "12 minutes = 12/60 = 1/5 hour",
+        "Speed = 0.9 ÷ (1/5) = 4.5 km/hr"
       ],
-      "answer": "7.2 km per hour"
+      "answer": "4.5 km per hour"
     }
+  },
+
+  {
+    "qno": 2,
+    "question": "A train covers 180 km in 3 hours. Find its speed.",
+    "questionlist": {
+      "given": [
+        {
+          "qn": 1,
+          "question": "What are the given values?",
+          "type": "mcq",
+          "options": {
+            "A": "Distance and Speed",
+            "B": "Time and Speed",
+            "C": "Distance and Time",
+            "D": "Only Distance"
+          },
+          "solution": "C"
+        },
+        {
+          "qn": 2,
+          "question": "What is the given distance?",
+          "type": "mcq",
+          "options": {
+            "A": "18 km",
+            "B": "180 km",
+            "C": "3 km",
+            "D": "60 km"
+          },
+          "solution": "B"
+        },
+        {
+          "qn": 3,
+          "question": "What is the given time?",
+          "type": "mcq",
+          "options": {
+            "A": "30 minutes",
+            "B": "180 minutes",
+            "C": "3 hours",
+            "D": "6 hours"
+          },
+          "solution": "C"
+        },
+        {
+          "qn": 4,
+          "question": "Which formula relates distance, speed, and time?",
+          "type": "mcq",
+          "options": {
+            "A": "Speed = Distance ÷ Time",
+            "B": "Speed = Distance × Time",
+            "C": "Time = Speed ÷ Distance",
+            "D": "Distance = Speed ÷ Time"
+          },
+          "solution": "A"
+        },
+        {
+          "qn": 5,
+          "question": "Which unit is already correct and needs no conversion?",
+          "type": "mcq",
+          "options": {
+            "A": "Minutes",
+            "B": "Meters",
+            "C": "Kilometers",
+            "D": "Seconds"
+          },
+          "solution": "C"
+        }
+      ]
+    },
+    "tofind": [
+      {
+        "qn": 1,
+        "question": "What is to be calculated?",
+        "type": "mcq",
+        "options": {
+          "A": "Distance",
+          "B": "Speed",
+          "C": "Time",
+          "D": "Length"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 2,
+        "question": "What unit will the answer be in?",
+        "type": "mcq",
+        "options": {
+          "A": "km/hr",
+          "B": "m/s",
+          "C": "hours",
+          "D": "meters"
+        },
+        "solution": "A"
+      },
+      {
+        "qn": 3,
+        "question": "Which operation is required?",
+        "type": "mcq",
+        "options": {
+          "A": "Addition",
+          "B": "Subtraction",
+          "C": "Multiplication",
+          "D": "Division"
+        },
+        "solution": "D"
+      },
+      {
+        "qn": 4,
+        "question": "Which value will be divided by time?",
+        "type": "mcq",
+        "options": {
+          "A": "Speed",
+          "B": "Distance",
+          "C": "Hours",
+          "D": "Minutes"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 5,
+        "question": "What is the numerical value of speed?",
+        "type": "mcq",
+        "options": {
+          "A": "40",
+          "B": "50",
+          "C": "60",
+          "D": "70"
+        },
+        "solution": "C"
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Speed = Distance ÷ Time",
+        "Speed = 180 ÷ 3 = 60 km/hr"
+      ],
+      "answer": "60 km per hour"
+    }
+  },{
+    "qno": 3,
+    "question": "An athlete runs 200 m in 25 seconds. Find his speed in m/s.",
+    "questionlist": {
+      "given": [
+        {
+          "qn": 1,
+          "question": "What quantities are given in the question?",
+          "type": "mcq",
+          "options": {
+            "A": "Distance and Time",
+            "B": "Speed and Time",
+            "C": "Distance and Speed",
+            "D": "Only Time"
+          },
+          "solution": "A"
+        },
+        {
+          "qn": 2,
+          "question": "What is the given distance?",
+          "type": "mcq",
+          "options": {
+            "A": "25 m",
+            "B": "200 m",
+            "C": "20 m",
+            "D": "200 km"
+          },
+          "solution": "B"
+        },
+        {
+          "qn": 3,
+          "question": "What is the given time?",
+          "type": "mcq",
+          "options": {
+            "A": "25 minutes",
+            "B": "25 hours",
+            "C": "25 seconds",
+            "D": "200 seconds"
+          },
+          "solution": "C"
+        },
+        {
+          "qn": 4,
+          "question": "Which unit is used for distance?",
+          "type": "mcq",
+          "options": {
+            "A": "kilometers",
+            "B": "meters",
+            "C": "centimeters",
+            "D": "miles"
+          },
+          "solution": "B"
+        },
+        {
+          "qn": 5,
+          "question": "Is unit conversion required for the given values?",
+          "type": "mcq",
+          "options": {
+            "A": "Yes, distance to km",
+            "B": "Yes, time to hours",
+            "C": "No",
+            "D": "Yes, both"
+          },
+          "solution": "C"
+        }
+      ]
+    },
+    "tofind": [
+      {
+        "qn": 1,
+        "question": "What is required to be found?",
+        "type": "mcq",
+        "options": {
+          "A": "Distance",
+          "B": "Speed",
+          "C": "Time",
+          "D": "Acceleration"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 2,
+        "question": "In which unit is the answer required?",
+        "type": "mcq",
+        "options": {
+          "A": "km/hr",
+          "B": "m/s",
+          "C": "m",
+          "D": "seconds"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 3,
+        "question": "Which formula will be used?",
+        "type": "mcq",
+        "options": {
+          "A": "Distance × Time",
+          "B": "Time ÷ Distance",
+          "C": "Distance ÷ Time",
+          "D": "Speed × Time"
+        },
+        "solution": "C"
+      },
+      {
+        "qn": 4,
+        "question": "Which value will be the divisor?",
+        "type": "mcq",
+        "options": {
+          "A": "200",
+          "B": "25",
+          "C": "8",
+          "D": "100"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 5,
+        "question": "What is the numerical value of speed?",
+        "type": "mcq",
+        "options": {
+          "A": "4",
+          "B": "6",
+          "C": "8",
+          "D": "10"
+        },
+        "solution": "C"
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Speed = Distance ÷ Time",
+        "Speed = 200 ÷ 25 = 8 m/s"
+      ],
+      "answer": "8 meters per second"
+    }
+  },
+  {
+    "qno": 4,
+    "question": "A car travels at 54 km/hr. Express this speed in m/s.",
+    "questionlist": {
+      "given": [
+        {
+          "qn": 1,
+          "question": "What is the given quantity?",
+          "type": "mcq",
+          "options": {
+            "A": "Distance",
+            "B": "Time",
+            "C": "Speed",
+            "D": "Speed and Time"
+          },
+          "solution": "C"
+        },
+        {
+          "qn": 2,
+          "question": "What is the value of speed given?",
+          "type": "mcq",
+          "options": {
+            "A": "15 km/hr",
+            "B": "54 km/hr",
+            "C": "54 m/s",
+            "D": "18 km/hr"
+          },
+          "solution": "B"
+        },
+        {
+          "qn": 3,
+          "question": "Which conversion is asked?",
+          "type": "mcq",
+          "options": {
+            "A": "m/s to km/hr",
+            "B": "km to m",
+            "C": "km/hr to m/s",
+            "D": "hr to min"
+          },
+          "solution": "C"
+        },
+        {
+          "qn": 4,
+          "question": "What factor converts km/hr to m/s?",
+          "type": "mcq",
+          "options": {
+            "A": "18/5",
+            "B": "5/18",
+            "C": "60",
+            "D": "1000"
+          },
+          "solution": "B"
+        },
+        {
+          "qn": 5,
+          "question": "What is 5/18 simplified from?",
+          "type": "mcq",
+          "options": {
+            "A": "100/360",
+            "B": "1000/3600",
+            "C": "50/180",
+            "D": "10/36"
+          },
+          "solution": "B"
+        }
+      ]
+    },
+    "tofind": [
+      {
+        "qn": 1,
+        "question": "What is the objective?",
+        "type": "mcq",
+        "options": {
+          "A": "Calculate Time",
+          "B": "Convert Speed unit",
+          "C": "Calculate Distance",
+          "D": "Find acceleration"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 2,
+        "question": "What will be the unit of the final result?",
+        "type": "mcq",
+        "options": {
+          "A": "km/hr",
+          "B": "m/s",
+          "C": "km",
+          "D": "m"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 3,
+        "question": "Which calculation is needed?",
+        "type": "mcq",
+        "options": {
+          "A": "54 × 18/5",
+          "B": "54 × 5/18",
+          "C": "54 ÷ 5",
+          "D": "54 + 273"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 4,
+        "question": "What is 54 divided by 18?",
+        "type": "mcq",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 5,
+        "question": "What is the final speed in m/s?",
+        "type": "mcq",
+        "options": {
+          "A": "10",
+          "B": "15",
+          "C": "20",
+          "D": "25"
+        },
+        "solution": "B"
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Speed in m/s = Speed in km/hr × 5/18",
+        "Speed = 54 × 5/18 = 3 × 5 = 15 m/s"
+      ],
+      "answer": "15 m/s"
+    }
+  },
+  {
+    "qno": 5,
+    "question": "A bus travels at 60 km/hr for 4 hours. Find the distance covered.",
+    "questionlist": {
+      "given": [
+        {
+          "qn": 1,
+          "question": "What are the given values?",
+          "type": "mcq",
+          "options": {
+            "A": "Speed and Time",
+            "B": "Distance and Time",
+            "C": "Speed and Distance",
+            "D": "Only Speed"
+          },
+          "solution": "A"
+        },
+        {
+          "qn": 2,
+          "question": "What is the given speed?",
+          "type": "mcq",
+          "options": {
+            "A": "4 km/hr",
+            "B": "60 km/hr",
+            "C": "240 km/hr",
+            "D": "60 m/s"
+          },
+          "solution": "B"
+        },
+        {
+          "qn": 3,
+          "question": "What is the given time?",
+          "type": "mcq",
+          "options": {
+            "A": "4 minutes",
+            "B": "4 seconds",
+            "C": "4 hours",
+            "D": "40 hours"
+          },
+          "solution": "C"
+        },
+        {
+          "qn": 4,
+          "question": "Are the units compatible (km/hr and hours)?",
+          "type": "mcq",
+          "options": {
+            "A": "Yes",
+            "B": "No, convert speed",
+            "C": "No, convert time",
+            "D": "No, convert both"
+          },
+          "solution": "A"
+        },
+        {
+          "qn": 5,
+          "question": "Which unit is used for time in the speed value?",
+          "type": "mcq",
+          "options": {
+            "A": "Seconds",
+            "B": "Minutes",
+            "C": "Hours",
+            "D": "Days"
+          },
+          "solution": "C"
+        }
+      ]
+    },
+    "tofind": [
+      {
+        "qn": 1,
+        "question": "What is to be calculated?",
+        "type": "mcq",
+        "options": {
+          "A": "Speed",
+          "B": "Time",
+          "C": "Distance",
+          "D": "Weight"
+        },
+        "solution": "C"
+      },
+      {
+        "qn": 2,
+        "question": "What unit will the answer be in?",
+        "type": "mcq",
+        "options": {
+          "A": "km/hr",
+          "B": "hours",
+          "C": "km",
+          "D": "meters"
+        },
+        "solution": "C"
+      },
+      {
+        "qn": 3,
+        "question": "Which formula is used for distance?",
+        "type": "mcq",
+        "options": {
+          "A": "Speed ÷ Time",
+          "B": "Time ÷ Speed",
+          "C": "Speed × Time",
+          "D": "Speed + Time"
+        },
+        "solution": "C"
+      },
+      {
+        "qn": 4,
+        "question": "Which operation is performed on 60 and 4?",
+        "type": "mcq",
+        "options": {
+          "A": "Division",
+          "B": "Multiplication",
+          "C": "Subtraction",
+          "D": "Addition"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 5,
+        "question": "What is the final result?",
+        "type": "mcq",
+        "options": {
+          "A": "15",
+          "B": "64",
+          "C": "240",
+          "D": "56"
+        },
+        "solution": "C"
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Distance = Speed × Time",
+        "Distance = 60 × 4 = 240 km"
+      ],
+      "answer": "240 km"
+    }
+  },
+  {
+    "qno": 6,
+    "question": "A cyclist covers a distance of 24 km in 2 hours. Find his speed.",
+    "questionlist": {
+      "given": [
+        {
+          "qn": 1,
+          "question": "Which quantities are given?",
+          "type": "mcq",
+          "options": {
+            "A": "Speed and Time",
+            "B": "Distance and Time",
+            "C": "Speed and Distance",
+            "D": "Only Distance"
+          },
+          "solution": "B"
+        },
+        {
+          "qn": 2,
+          "question": "What is the given distance?",
+          "type": "mcq",
+          "options": {
+            "A": "12 km",
+            "B": "24 km",
+            "C": "2 km",
+            "D": "48 km"
+          },
+          "solution": "B"
+        },
+        {
+          "qn": 3,
+          "question": "What is the given time?",
+          "type": "mcq",
+          "options": {
+            "A": "2 minutes",
+            "B": "24 hours",
+            "C": "2 hours",
+            "D": "12 hours"
+          },
+          "solution": "C"
+        },
+        {
+          "qn": 4,
+          "question": "Which unit is used for distance here?",
+          "type": "mcq",
+          "options": {
+            "A": "meters",
+            "B": "kilometers",
+            "C": "seconds",
+            "D": "minutes"
+          },
+          "solution": "B"
+        },
+        {
+          "qn": 5,
+          "question": "Is any unit conversion required?",
+          "type": "mcq",
+          "options": {
+            "A": "Yes, distance",
+            "B": "Yes, time",
+            "C": "Yes, both",
+            "D": "No"
+          },
+          "solution": "D"
+        }
+      ]
+    },
+    "tofind": [
+      {
+        "qn": 1,
+        "question": "What needs to be calculated?",
+        "type": "mcq",
+        "options": {
+          "A": "Distance",
+          "B": "Speed",
+          "C": "Time",
+          "D": "Acceleration"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 2,
+        "question": "In which unit is the speed required?",
+        "type": "mcq",
+        "options": {
+          "A": "m/s",
+          "B": "km/hr",
+          "C": "km",
+          "D": "hours"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 3,
+        "question": "Which formula is applicable?",
+        "type": "mcq",
+        "options": {
+          "A": "Speed = Distance ÷ Time",
+          "B": "Speed = Time ÷ Distance",
+          "C": "Distance = Speed ÷ Time",
+          "D": "Time = Speed × Distance"
+        },
+        "solution": "A"
+      },
+      {
+        "qn": 4,
+        "question": "Which value is divided by time?",
+        "type": "mcq",
+        "options": {
+          "A": "Speed",
+          "B": "Hours",
+          "C": "Distance",
+          "D": "Minutes"
+        },
+        "solution": "C"
+      },
+      {
+        "qn": 5,
+        "question": "What is the numerical value of speed?",
+        "type": "mcq",
+        "options": {
+          "A": "10",
+          "B": "12",
+          "C": "14",
+          "D": "16"
+        },
+        "solution": "B"
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Speed = Distance ÷ Time",
+        "Speed = 24 ÷ 2 = 12 km/hr"
+      ],
+      "answer": "12 km per hour"
+    }
+  },
+
+  {
+    "qno": 7,
+    "question": "A car travels at a speed of 72 km/hr. Find its speed in m/s.",
+    "questionlist": {
+      "given": [
+        {
+          "qn": 1,
+          "question": "What quantity is given?",
+          "type": "mcq",
+          "options": {
+            "A": "Distance",
+            "B": "Time",
+            "C": "Speed",
+            "D": "Acceleration"
+          },
+          "solution": "C"
+        },
+        {
+          "qn": 2,
+          "question": "What is the given speed?",
+          "type": "mcq",
+          "options": {
+            "A": "18 km/hr",
+            "B": "36 km/hr",
+            "C": "54 km/hr",
+            "D": "72 km/hr"
+          },
+          "solution": "D"
+        },
+        {
+          "qn": 3,
+          "question": "Which conversion is required?",
+          "type": "mcq",
+          "options": {
+            "A": "km to m",
+            "B": "hr to s",
+            "C": "km/hr to m/s",
+            "D": "No conversion"
+          },
+          "solution": "C"
+        },
+        {
+          "qn": 4,
+          "question": "Which factor is used to convert km/hr to m/s?",
+          "type": "mcq",
+          "options": {
+            "A": "× 18/5",
+            "B": "× 5/18",
+            "C": "× 60",
+            "D": "÷ 60"
+          },
+          "solution": "B"
+        },
+        {
+          "qn": 5,
+          "question": "Which unit is NOT used in the final answer?",
+          "type": "mcq",
+          "options": {
+            "A": "meters",
+            "B": "seconds",
+            "C": "kilometers",
+            "D": "m/s"
+          },
+          "solution": "C"
+        }
+      ]
+    },
+    "tofind": [
+      {
+        "qn": 1,
+        "question": "What needs to be found?",
+        "type": "mcq",
+        "options": {
+          "A": "Distance",
+          "B": "Speed in m/s",
+          "C": "Time",
+          "D": "Speed in km/hr"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 2,
+        "question": "Which unit will the answer be in?",
+        "type": "mcq",
+        "options": {
+          "A": "km/hr",
+          "B": "m/s",
+          "C": "km",
+          "D": "seconds"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 3,
+        "question": "Which formula is used for conversion?",
+        "type": "mcq",
+        "options": {
+          "A": "Speed × 18/5",
+          "B": "Speed × 5/18",
+          "C": "Speed ÷ 60",
+          "D": "Speed × 60"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 4,
+        "question": "Which value is multiplied by 5/18?",
+        "type": "mcq",
+        "options": {
+          "A": "Time",
+          "B": "Distance",
+          "C": "Speed",
+          "D": "Acceleration"
+        },
+        "solution": "C"
+      },
+      {
+        "qn": 5,
+        "question": "What is the final value of speed?",
+        "type": "mcq",
+        "options": {
+          "A": "15",
+          "B": "18",
+          "C": "20",
+          "D": "25"
+        },
+        "solution": "B"
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Speed in m/s = Speed in km/hr × 5/18",
+        "Speed = 72 × 5/18 = 20 m/s"
+      ],
+      "answer": "20 meters per second"
+    }
+  },
+  
+  {
+    "qno": 8,
+    "question": "A person covers 18 km in 2 hours on a bicycle. Find the speed in m/s.",
+    "questionlist": {
+      "given": [
+        {
+          "qn": 1,
+          "question": "What values are given?",
+          "type": "mcq",
+          "options": {
+            "A": "Distance and Time",
+            "B": "Speed and Time",
+            "C": "Distance and Speed",
+            "D": "Only Distance"
+          },
+          "solution": "A"
+        },
+        {
+          "qn": 2,
+          "question": "What is the distance in km?",
+          "type": "mcq",
+          "options": {
+            "A": "2",
+            "B": "9",
+            "C": "18",
+            "D": "36"
+          },
+          "solution": "C"
+        },
+        {
+          "qn": 3,
+          "question": "What is the time in hours?",
+          "type": "mcq",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "solution": "B"
+        },
+        {
+          "qn": 4,
+          "question": "What is the calculated speed in km/hr first?",
+          "type": "mcq",
+          "options": {
+            "A": "18/2 = 9 km/hr",
+            "B": "18*2 = 36 km/hr",
+            "C": "2/18 = 0.11 km/hr",
+            "D": "18-2 = 16 km/hr"
+          },
+          "solution": "A"
+        },
+        {
+          "qn": 5,
+          "question": "Which unit is required for the final speed?",
+          "type": "mcq",
+          "options": {
+            "A": "km/hr",
+            "B": "m/s",
+            "C": "m/min",
+            "D": "km/min"
+          },
+          "solution": "B"
+        }
+      ]
+    },
+    "tofind": [
+      {
+        "qn": 1,
+        "question": "What is the primary task?",
+        "type": "mcq",
+        "options": {
+          "A": "Find Distance",
+          "B": "Find Time",
+          "C": "Find Speed in m/s",
+          "D": "Find Average Speed"
+        },
+        "solution": "C"
+      },
+      {
+        "qn": 2,
+        "question": "What formula converts km/hr to m/s?",
+        "type": "mcq",
+        "options": {
+          "A": "multiply by 18/5",
+          "B": "multiply by 5/18",
+          "C": "divide by 1000",
+          "D": "multiply by 60"
+        },
+        "solution": "B"
+      },
+      {
+        "qn": 3,
+        "question": "What is the speed in km/hr?",
+        "type": "mcq",
+        "options": {
+          "A": "9",
+          "B": "18",
+          "C": "36",
+          "D": "4.5"
+        },
+        "solution": "A"
+      },
+      {
+        "qn": 4,
+        "question": "Calculate 9 × 5/18:",
+        "type": "mcq",
+        "options": {
+          "A": "2.5",
+          "B": "5",
+          "C": "1.5",
+          "D": "10"
+        },
+        "solution": "A"
+      },
+      {
+        "qn": 5,
+        "question": "Final speed in m/s?",
+        "type": "mcq",
+        "options": {
+          "A": "2.5 m/s",
+          "B": "5 m/s",
+          "C": "9 m/s",
+          "D": "0.5 m/s"
+        },
+        "solution": "A"
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Speed = Distance / Time = 18 / 2 = 9 km/hr",
+        "Speed in m/s = 9 × 5/18 = 2.5 m/s"
+      ],
+      "answer": "2.5 m/s"
+    }
+  },
+  {
+    "qno": 9,
+    "question": "A bus covers a distance of 400 km in 8 hours. Find its speed.",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What quantities are given?", "type": "mcq", "options": { "A": "Speed and Time", "B": "Distance and Time", "C": "Speed and Distance", "D": "Only Speed" }, "solution": "B" },
+        { "qn": 2, "question": "What is the given distance?", "type": "mcq", "options": { "A": "8 km", "B": "40 km", "C": "400 km", "D": "4000 km" }, "solution": "C" },
+        { "qn": 3, "question": "What is the given time?", "type": "mcq", "options": { "A": "8 minutes", "B": "8 hours", "C": "80 hours", "D": "40 hours" }, "solution": "B" },
+        { "qn": 4, "question": "Are the units in the standard km and hr format?", "type": "mcq", "options": { "A": "Yes", "B": "No, distance needs change", "C": "No, time needs change", "D": "No, both need change" }, "solution": "A" },
+        { "qn": 5, "question": "What is the unit of distance?", "type": "mcq", "options": { "A": "meters", "B": "kilometers", "C": "miles", "D": "centimeters" }, "solution": "B" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is to be calculated?", "type": "mcq", "options": { "A": "Time", "B": "Distance", "C": "Speed", "D": "Acceleration" }, "solution": "C" },
+      { "qn": 2, "question": "In which unit will the speed be?", "type": "mcq", "options": { "A": "m/s", "B": "km/hr", "C": "km", "D": "hr" }, "solution": "B" },
+      { "qn": 3, "question": "Which formula is used?", "type": "mcq", "options": { "A": "D × T", "B": "D ÷ T", "C": "T ÷ D", "D": "S × T" }, "solution": "B" },
+      { "qn": 4, "question": "Which value is the numerator?", "type": "mcq", "options": { "A": "8", "B": "400", "C": "50", "D": "100" }, "solution": "B" },
+      { "qn": 5, "question": "What is the numerical speed?", "type": "mcq", "options": { "A": "40", "B": "45", "C": "50", "D": "60" }, "solution": "C" }
+    ],
+    "solution": { "steps": ["Speed = Distance ÷ Time", "Speed = 400 ÷ 8 = 50 km/hr"], "answer": "50 km/hr" }
+  },
+  {
+    "qno": 10,
+    "question": "A car travels at a speed of 80 km/hr for 5 hours. Find the distance traveled.",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What quantities are given?", "type": "mcq", "options": { "A": "Speed and Time", "B": "Distance and Time", "C": "Speed and Distance", "D": "Only Distance" }, "solution": "A" },
+        { "qn": 2, "question": "What is the given speed?", "type": "mcq", "options": { "A": "5 km/hr", "B": "80 km/hr", "C": "80 m/s", "D": "400 km/hr" }, "solution": "B" },
+        { "qn": 3, "question": "What is the given time?", "type": "mcq", "options": { "A": "5 minutes", "B": "50 hours", "C": "5 hours", "D": "80 hours" }, "solution": "C" },
+        { "qn": 4, "question": "Is any conversion needed?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "Only for speed", "D": "Only for time" }, "solution": "B" },
+        { "qn": 5, "question": "Which unit is used for time?", "type": "mcq", "options": { "A": "seconds", "B": "minutes", "C": "hours", "D": "days" }, "solution": "C" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is required to be found?", "type": "mcq", "options": { "A": "Speed", "B": "Time", "C": "Distance", "D": "Velocity" }, "solution": "C" },
+      { "qn": 2, "question": "What unit will the answer be in?", "type": "mcq", "options": { "A": "km/hr", "B": "km", "C": "m", "D": "hours" }, "solution": "B" },
+      { "qn": 3, "question": "Which formula is applicable?", "type": "mcq", "options": { "A": "D = S × T", "B": "D = S ÷ T", "C": "D = T ÷ S", "D": "D = S + T" }, "solution": "A" },
+      { "qn": 4, "question": "Which values are multiplied?", "type": "mcq", "options": { "A": "80 and 5", "B": "80 and 80", "C": "5 and 5", "D": "400 and 5" }, "solution": "A" },
+      { "qn": 5, "question": "What is the total distance?", "type": "mcq", "options": { "A": "350 km", "B": "400 km", "C": "450 km", "D": "500 km" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["Distance = Speed × Time", "Distance = 80 × 5 = 400 km"], "answer": "400 km" }
+  },
+  {
+    "qno": 11,
+    "question": "How much time will a train take to cover 360 km at 60 km/hr?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is given?", "type": "mcq", "options": { "A": "Distance and Speed", "B": "Time and Speed", "C": "Distance and Time", "D": "Only Speed" }, "solution": "A" },
+        { "qn": 2, "question": "What is the distance?", "type": "mcq", "options": { "A": "60 km", "B": "360 km", "C": "36 km", "D": "6 km" }, "solution": "B" },
+        { "qn": 3, "question": "What is the speed?", "type": "mcq", "options": { "A": "60 km/hr", "B": "360 km/hr", "C": "6 km/hr", "D": "60 m/s" }, "solution": "A" },
+        { "qn": 4, "question": "What is the unit of speed given?", "type": "mcq", "options": { "A": "m/s", "B": "km/hr", "C": "km/min", "D": "m/min" }, "solution": "B" },
+        { "qn": 5, "question": "Is the distance in kilometers?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "It is in meters", "D": "It is in miles" }, "solution": "A" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What needs to be calculated?", "type": "mcq", "options": { "A": "Speed", "B": "Distance", "C": "Time", "D": "Acceleration" }, "solution": "C" },
+      { "qn": 2, "question": "What unit will the answer be in?", "type": "mcq", "options": { "A": "hours", "B": "minutes", "C": "seconds", "D": "km" }, "solution": "A" },
+      { "qn": 3, "question": "Which formula will be used?", "type": "mcq", "options": { "A": "T = D × S", "B": "T = S ÷ D", "C": "T = D ÷ S", "D": "T = D + S" }, "solution": "C" },
+      { "qn": 4, "question": "Which value is the divisor?", "type": "mcq", "options": { "A": "360", "B": "60", "C": "6", "D": "10" }, "solution": "B" },
+      { "qn": 5, "question": "What is the numerical value of time?", "type": "mcq", "options": { "A": "4", "B": "5", "C": "6", "D": "8" }, "solution": "C" }
+    ],
+    "solution": { "steps": ["Time = Distance ÷ Speed", "Time = 360 ÷ 60 = 6 hours"], "answer": "6 hours" }
+  },
+  {
+    "qno": 12,
+    "question": "Express 108 km/hr in m/s.",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What quantity is provided?", "type": "mcq", "options": { "A": "Time", "B": "Distance", "C": "Speed", "D": "Force" }, "solution": "C" },
+        { "qn": 2, "question": "What is the value of speed?", "type": "mcq", "options": { "A": "108 m/s", "B": "108 km/hr", "C": "10.8 km/hr", "D": "18 km/hr" }, "solution": "B" },
+        { "qn": 3, "question": "What is the target unit?", "type": "mcq", "options": { "A": "km/hr", "B": "m/s", "C": "km/min", "D": "m/min" }, "solution": "B" },
+        { "qn": 4, "question": "Which multiplier converts km/hr to m/s?", "type": "mcq", "options": { "A": "18/5", "B": "5/18", "C": "60/1000", "D": "1000/60" }, "solution": "B" },
+        { "qn": 5, "question": "Is 108 divisible by 18?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "Maybe", "D": "Only by 5" }, "solution": "A" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is the task?", "type": "mcq", "options": { "A": "Find distance", "B": "Find time", "C": "Convert speed units", "D": "Find acceleration" }, "solution": "C" },
+      { "qn": 2, "question": "What is the final unit?", "type": "mcq", "options": { "A": "m/s", "B": "km/hr", "C": "m", "D": "s" }, "solution": "A" },
+      { "qn": 3, "question": "Multiply 108 by which fraction?", "type": "mcq", "options": { "A": "5/18", "B": "18/5", "C": "1/60", "D": "60/1" }, "solution": "A" },
+      { "qn": 4, "question": "What is 108 divided by 18?", "type": "mcq", "options": { "A": "4", "B": "5", "C": "6", "D": "7" }, "solution": "C" },
+      { "qn": 5, "question": "What is the speed in m/s?", "type": "mcq", "options": { "A": "20", "B": "25", "C": "30", "D": "35" }, "solution": "C" }
+    ],
+    "solution": { "steps": ["Speed in m/s = 108 × 5/18", "108 ÷ 18 = 6", "6 × 5 = 30 m/s"], "answer": "30 m/s" }
+  },
+  {
+    "qno": 13,
+    "question": "A cyclist covers 1500 meters in 5 minutes. Find his speed in km/hr.",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the distance in meters?", "type": "mcq", "options": { "A": "500", "B": "1000", "C": "1500", "D": "2000" }, "solution": "C" },
+        { "qn": 2, "question": "What is the time in minutes?", "type": "mcq", "options": { "A": "5", "B": "15", "C": "50", "D": "1.5" }, "solution": "A" },
+        { "qn": 3, "question": "Convert 1500m to km.", "type": "mcq", "options": { "A": "15 km", "B": "1.5 km", "C": "0.15 km", "D": "150 km" }, "solution": "B" },
+        { "qn": 4, "question": "Convert 5 minutes to hours.", "type": "mcq", "options": { "A": "5/60", "B": "60/5", "C": "1/12", "D": "Both A and C" }, "solution": "D" },
+        { "qn": 5, "question": "Is unit conversion necessary?", "type": "mcq", "options": { "A": "No", "B": "Yes, for distance", "C": "Yes, for time", "D": "Yes, for both" }, "solution": "D" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is the goal?", "type": "mcq", "options": { "A": "Speed in m/s", "B": "Speed in km/hr", "C": "Distance in km", "D": "Time in hr" }, "solution": "B" },
+      { "qn": 2, "question": "Which formula relates km and hours?", "type": "mcq", "options": { "A": "D/T", "B": "D*T", "C": "T/D", "D": "S*T" }, "solution": "A" },
+      { "qn": 3, "question": "Divide 1.5 by which hour value?", "type": "mcq", "options": { "A": "1/12", "B": "1/5", "C": "1/10", "D": "1/2" }, "solution": "A" },
+      { "qn": 4, "question": "What is 1.5 multiplied by 12?", "type": "mcq", "options": { "A": "12", "B": "15", "C": "18", "D": "20" }, "solution": "C" },
+      { "qn": 5, "question": "Final speed in km/hr?", "type": "mcq", "options": { "A": "12 km/hr", "B": "15 km/hr", "C": "18 km/hr", "D": "20 km/hr" }, "solution": "C" }
+    ],
+    "solution": { "steps": ["1500 m = 1.5 km", "5 min = 5/60 = 1/12 hr", "Speed = 1.5 ÷ (1/12) = 1.5 × 12 = 18 km/hr"], "answer": "18 km/hr" }
+  },
+  {
+    "qno": 14,
+    "question": "A runner speed is 10 m/s. Convert it to km/hr.",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the given speed?", "type": "mcq", "options": { "A": "10 km/hr", "B": "10 m/s", "C": "100 m/s", "D": "1 m/s" }, "solution": "B" },
+        { "qn": 2, "question": "What is the initial unit?", "type": "mcq", "options": { "A": "km/hr", "B": "m/min", "C": "m/s", "D": "ft/s" }, "solution": "C" },
+        { "qn": 3, "question": "What is the target unit?", "type": "mcq", "options": { "A": "m/s", "B": "km/hr", "C": "miles/hr", "D": "km/min" }, "solution": "B" },
+        { "qn": 4, "question": "Multiplier for m/s to km/hr?", "type": "mcq", "options": { "A": "5/18", "B": "18/5", "C": "60/60", "D": "1000/3600" }, "solution": "B" },
+        { "qn": 5, "question": "Is 10 divisible by 5?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "Not relevant", "D": "Only by 10" }, "solution": "A" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What calculation is needed?", "type": "mcq", "options": { "A": "10 × 5/18", "B": "10 × 18/5", "C": "10 ÷ 18", "D": "10 + 18" }, "solution": "B" },
+      { "qn": 2, "question": "What is 10 divided by 5?", "type": "mcq", "options": { "A": "1", "B": "2", "C": "3", "D": "5" }, "solution": "B" },
+      { "qn": 3, "question": "What is 2 multiplied by 18?", "type": "mcq", "options": { "A": "18", "B": "36", "C": "54", "D": "72" }, "solution": "B" },
+      { "qn": 4, "question": "What unit will be used?", "type": "mcq", "options": { "A": "m/s", "B": "km/hr", "C": "km", "D": "hr" }, "solution": "B" },
+      { "qn": 5, "question": "Final result?", "type": "mcq", "options": { "A": "18 km/hr", "B": "25 km/hr", "C": "36 km/hr", "D": "40 km/hr" }, "solution": "C" }
+    ],
+    "solution": { "steps": ["Speed in km/hr = 10 × 18/5", "10/5 = 2", "2 × 18 = 36 km/hr"], "answer": "36 km/hr" }
+  },
+  {
+    "qno": 15,
+    "question": "How far will a plane fly in 3 hours at 900 km/hr?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the speed?", "type": "mcq", "options": { "A": "3 km/hr", "B": "900 km/hr", "C": "2700 km/hr", "D": "90 km/hr" }, "solution": "B" },
+        { "qn": 2, "question": "What is the time?", "type": "mcq", "options": { "A": "3 minutes", "B": "3 hours", "C": "30 hours", "D": "3 seconds" }, "solution": "B" },
+        { "qn": 3, "question": "Are units km/hr and hours compatible?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "Need m/s", "D": "Need minutes" }, "solution": "A" },
+        { "qn": 4, "question": "Is speed a given quantity?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "It is to be found", "D": "It is unknown" }, "solution": "A" },
+        { "qn": 5, "question": "Which mode of transport is mentioned?", "type": "mcq", "options": { "A": "Bus", "B": "Car", "C": "Plane", "D": "Train" }, "solution": "C" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is to be found?", "type": "mcq", "options": { "A": "Speed", "B": "Time", "C": "Distance", "D": "Height" }, "solution": "C" },
+      { "qn": 2, "question": "Formula to be used?", "type": "mcq", "options": { "A": "S × T", "B": "S ÷ T", "C": "T ÷ S", "D": "S + T" }, "solution": "A" },
+      { "qn": 3, "question": "Numerical product?", "type": "mcq", "options": { "A": "900 × 3", "B": "900 ÷ 3", "C": "3 ÷ 900", "D": "900 + 3" }, "solution": "A" },
+      { "qn": 4, "question": "What is 9 × 3?", "type": "mcq", "options": { "A": "18", "B": "27", "C": "36", "D": "45" }, "solution": "B" },
+      { "qn": 5, "question": "Final distance?", "type": "mcq", "options": { "A": "1800 km", "B": "2700 km", "C": "3000 km", "D": "300 km" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["Distance = Speed × Time", "Distance = 900 × 3 = 2700 km"], "answer": "2700 km" }
+  },
+  {
+    "qno": 16,
+    "question": "A boat travels 60 km in 4 hours. Find its speed in m/s.",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the distance?", "type": "mcq", "options": { "A": "4 km", "B": "60 km", "C": "15 km", "D": "240 km" }, "solution": "B" },
+        { "qn": 2, "question": "What is the time?", "type": "mcq", "options": { "A": "4 hr", "B": "40 hr", "C": "1 hr", "D": "60 hr" }, "solution": "A" },
+        { "qn": 3, "question": "What is speed in km/hr first?", "type": "mcq", "options": { "A": "60/4 = 15", "B": "60*4 = 240", "C": "4/60 = 0.06", "D": "60-4 = 56" }, "solution": "A" },
+        { "qn": 4, "question": "Factor to convert km/hr to m/s?", "type": "mcq", "options": { "A": "18/5", "B": "5/18", "C": "1000", "D": "3600" }, "solution": "B" },
+        { "qn": 5, "question": "Is the boat in water?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "Irrelevant", "D": "In air" }, "solution": "A" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "Task?", "type": "mcq", "options": { "A": "Speed in km/hr", "B": "Speed in m/s", "C": "Distance", "D": "Time" }, "solution": "B" },
+      { "qn": 2, "question": "Speed in km/hr?", "type": "mcq", "options": { "A": "10", "B": "15", "C": "20", "D": "25" }, "solution": "B" },
+      { "qn": 3, "question": "Convert 15 km/hr to m/s.", "type": "mcq", "options": { "A": "15 × 5/18", "B": "15 × 18/5", "C": "15/60", "D": "15*60" }, "solution": "A" },
+      { "qn": 4, "question": "What is 75 ÷ 18?", "type": "mcq", "options": { "A": "4.16", "B": "5.5", "C": "3.2", "D": "6.1" }, "solution": "A" },
+      { "qn": 5, "question": "Approximate speed in m/s?", "type": "mcq", "options": { "A": "4.17", "B": "5", "C": "15", "D": "60" }, "solution": "A" }
+    ],
+    "solution": { "steps": ["Speed = 60/4 = 15 km/hr", "15 × 5/18 = 75/18 = 4.166 m/s"], "answer": "4.17 m/s" }
+  },
+  {
+    "qno": 17,
+    "question": "A train 200m long passes a pole in 10 seconds. Find its speed in km/hr.",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the distance (train length)?", "type": "mcq", "options": { "A": "10 m", "B": "200 m", "C": "2000 m", "D": "2 km" }, "solution": "B" },
+        { "qn": 2, "question": "What is the time?", "type": "mcq", "options": { "A": "10 s", "B": "10 min", "C": "1 hr", "D": "20 s" }, "solution": "A" },
+        { "qn": 3, "question": "What is speed in m/s first?", "type": "mcq", "options": { "A": "200/10 = 20", "B": "200*10 = 2000", "C": "10/200 = 0.05", "D": "200-10 = 190" }, "solution": "A" },
+        { "qn": 4, "question": "Initial unit of speed?", "type": "mcq", "options": { "A": "km/hr", "B": "m/s", "C": "m/min", "D": "miles/hr" }, "solution": "B" },
+        { "qn": 5, "question": "Is conversion needed for km/hr?", "type": "mcq", "options": { "A": "No", "B": "Yes", "C": "Only distance", "D": "Only time" }, "solution": "B" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "Target unit?", "type": "mcq", "options": { "A": "m/s", "B": "km/hr", "C": "km/min", "D": "m/min" }, "solution": "B" },
+      { "qn": 2, "question": "Speed in m/s?", "type": "mcq", "options": { "A": "10", "B": "20", "C": "30", "D": "40" }, "solution": "B" },
+      { "qn": 3, "question": "Multiplier for m/s to km/hr?", "type": "mcq", "options": { "A": "5/18", "B": "18/5", "C": "1000", "D": "3600" }, "solution": "B" },
+      { "qn": 4, "question": "20 × 18/5?", "type": "mcq", "options": { "A": "36", "B": "72", "C": "54", "D": "108" }, "solution": "B" },
+      { "qn": 5, "question": "Final speed?", "type": "mcq", "options": { "A": "20 km/hr", "B": "72 km/hr", "C": "100 km/hr", "D": "50 km/hr" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["Speed = 200/10 = 20 m/s", "20 × 18/5 = 4 × 18 = 72 km/hr"], "answer": "72 km/hr" }
+  },
+  {
+    "qno": 18,
+    "question": "A man covers 20 km in 2 hours 30 minutes. Find his speed.",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the distance?", "type": "mcq", "options": { "A": "20 km", "B": "2 km", "C": "230 km", "D": "2.5 km" }, "solution": "A" },
+        { "qn": 2, "question": "What is the time given?", "type": "mcq", "options": { "A": "2 hr", "B": "30 min", "C": "2 hr 30 min", "D": "2.3 hr" }, "solution": "C" },
+        { "qn": 3, "question": "Convert 30 min to hours.", "type": "mcq", "options": { "A": "0.3 hr", "B": "0.5 hr", "C": "1 hr", "D": "0.2 hr" }, "solution": "B" },
+        { "qn": 4, "question": "Total time in decimal hours?", "type": "mcq", "options": { "A": "2.3 hr", "B": "2.5 hr", "C": "2.30 hr", "D": "3 hr" }, "solution": "B" },
+        { "qn": 5, "question": "Formula for speed?", "type": "mcq", "options": { "A": "D/T", "B": "D*T", "C": "T/D", "D": "S*T" }, "solution": "A" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is to be calculated?", "type": "mcq", "options": { "A": "Speed", "B": "Time", "C": "Distance", "D": "Weight" }, "solution": "A" },
+      { "qn": 2, "question": "Numerator?", "type": "mcq", "options": { "A": "2.5", "B": "20", "C": "2", "D": "30" }, "solution": "B" },
+      { "qn": 3, "question": "Denominator?", "type": "mcq", "options": { "A": "20", "B": "2.5", "C": "2.3", "D": "30" }, "solution": "B" },
+      { "qn": 4, "question": "What is 20 ÷ 2.5?", "type": "mcq", "options": { "A": "5", "B": "8", "C": "10", "D": "12" }, "solution": "B" },
+      { "qn": 5, "question": "Final unit?", "type": "mcq", "options": { "A": "m/s", "B": "km/hr", "C": "km", "D": "hr" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["Time = 2.5 hours", "Speed = 20 / 2.5 = 8 km/hr"], "answer": "8 km/hr" }
+  },
+  {
+    "qno": 19,
+    "question": "A boy walks at a speed of 4 km/hr. How much time does he take to walk a distance of 20 km?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What quantities are given in the problem?", "type": "mcq", "options": { "A": "Distance and Time", "B": "Speed and Distance", "C": "Speed and Time", "D": "Only Speed" }, "solution": "B" },
+        { "qn": 2, "question": "What is the speed of the boy?", "type": "mcq", "options": { "A": "4 km/hr", "B": "20 km/hr", "C": "5 km/hr", "D": "4 m/s" }, "solution": "A" },
+        { "qn": 3, "question": "What is the total distance to be covered?", "type": "mcq", "options": { "A": "4 km", "B": "80 km", "C": "20 km", "D": "10 km" }, "solution": "C" },
+        { "qn": 4, "question": "What is the unit of the given speed?", "type": "mcq", "options": { "A": "m/s", "B": "km/hr", "C": "m/min", "D": "km/min" }, "solution": "B" },
+        { "qn": 5, "question": "Are the distance and speed units compatible?", "type": "mcq", "options": { "A": "Yes", "B": "No, convert km to m", "C": "No, convert hr to min", "D": "No, both need conversion" }, "solution": "A" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is required to be calculated?", "type": "mcq", "options": { "A": "Speed", "B": "Distance", "C": "Time", "D": "Acceleration" }, "solution": "C" },
+      { "qn": 2, "question": "Which formula is used to find time?", "type": "mcq", "options": { "A": "Distance × Speed", "B": "Speed ÷ Distance", "C": "Distance ÷ Speed", "D": "Distance + Speed" }, "solution": "C" },
+      { "qn": 3, "question": "Which value acts as the dividend in the calculation?", "type": "mcq", "options": { "A": "4", "B": "20", "C": "5", "D": "16" }, "solution": "B" },
+      { "qn": 4, "question": "What will be the unit of the calculated time?", "type": "mcq", "options": { "A": "Minutes", "B": "Seconds", "C": "Hours", "D": "Days" }, "solution": "C" },
+      { "qn": 5, "question": "What is the numerical result of the division?", "type": "mcq", "options": { "A": "4", "B": "5", "C": "10", "D": "80" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["Time = Distance ÷ Speed", "Time = 20 ÷ 4 = 5 hours"], "answer": "5 hours" }
+  },
+  {
+    "qno": 20,
+    "question": "An eagle flies at a speed of 55 km/hr. How long will it take to cover 66 km?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the speed of the eagle?", "type": "mcq", "options": { "A": "66 km/hr", "B": "55 km/hr", "C": "1.2 km/hr", "D": "5.5 km/hr" }, "solution": "B" },
+        { "qn": 2, "question": "What is the distance to be covered?", "type": "mcq", "options": { "A": "55 km", "B": "66 km", "C": "121 km", "D": "11 km" }, "solution": "B" },
+        { "qn": 3, "question": "Is the speed unit in km/hr?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "It is in m/s", "D": "It is in km/min" }, "solution": "A" },
+        { "qn": 4, "question": "What quantity are we looking for?", "type": "mcq", "options": { "A": "Speed", "B": "Distance", "C": "Time", "D": "Height" }, "solution": "C" },
+        { "qn": 5, "question": "Are the numbers 66 and 55 divisible by the same factor?", "type": "mcq", "options": { "A": "Yes, 11", "B": "Yes, 5", "C": "Yes, 2", "D": "No" }, "solution": "A" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What formula relates T, D, and S?", "type": "mcq", "options": { "A": "T = D/S", "B": "T = S/D", "C": "T = D*S", "D": "T = D+S" }, "solution": "A" },
+      { "qn": 2, "question": "Calculate 66 ÷ 55:", "type": "mcq", "options": { "A": "1.1", "B": "1.2", "C": "1.5", "D": "2.0" }, "solution": "B" },
+      { "qn": 3, "question": "What is the time in hours?", "type": "mcq", "options": { "A": "1 hour", "B": "1.2 hours", "C": "2 hours", "D": "0.8 hours" }, "solution": "B" },
+      { "qn": 4, "question": "How many minutes is 0.2 hours?", "type": "mcq", "options": { "A": "10 mins", "B": "12 mins", "C": "20 mins", "D": "15 mins" }, "solution": "B" },
+      { "qn": 5, "question": "What is the total time in hours and minutes?", "type": "mcq", "options": { "A": "1 hr 20 min", "B": "1 hr 12 min", "C": "1 hr 5 min", "D": "2 hrs" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["Time = Distance ÷ Speed", "Time = 66 ÷ 55 = 1.2 hours", "0.2 hours = 0.2 × 60 = 12 minutes"], "answer": "1.2 hours (or 1 hour 12 minutes)" }
+  },
+  {
+    "qno": 21,
+    "question": "A car travels at a speed of 72 km/hr. How long will it take to cover 600 meters?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the distance in meters?", "type": "mcq", "options": { "A": "72", "B": "600", "C": "20", "D": "1000" }, "solution": "B" },
+        { "qn": 2, "question": "What is the speed in km/hr?", "type": "mcq", "options": { "A": "60", "B": "72", "C": "18", "D": "5" }, "solution": "B" },
+        { "qn": 3, "question": "Convert 72 km/hr to m/s:", "type": "mcq", "options": { "A": "15 m/s", "B": "20 m/s", "C": "25 m/s", "D": "30 m/s" }, "solution": "B" },
+        { "qn": 4, "question": "Is unit conversion necessary?", "type": "mcq", "options": { "A": "No", "B": "Yes, distance to km", "C": "Yes, speed to m/s", "D": "Either B or C" }, "solution": "D" },
+        { "qn": 5, "question": "What is the conversion factor for km/hr to m/s?", "type": "mcq", "options": { "A": "18/5", "B": "5/18", "C": "60", "D": "3.6" }, "solution": "B" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What unit will the final time be in?", "type": "mcq", "options": { "A": "Hours", "B": "Minutes", "C": "Seconds", "D": "Kilometers" }, "solution": "C" },
+      { "qn": 2, "question": "Formula to calculate time?", "type": "mcq", "options": { "A": "D ÷ S", "B": "S ÷ D", "C": "D × S", "D": "S + D" }, "solution": "A" },
+      { "qn": 3, "question": "Calculation using m and m/s:", "type": "mcq", "options": { "A": "600 ÷ 72", "B": "600 ÷ 20", "C": "72 ÷ 600", "D": "20 ÷ 600" }, "solution": "B" },
+      { "qn": 4, "question": "Result of 600 divided by 20:", "type": "mcq", "options": { "A": "3", "B": "30", "C": "300", "D": "20" }, "solution": "B" },
+      { "qn": 5, "question": "Final time in seconds?", "type": "mcq", "options": { "A": "20 s", "B": "30 s", "C": "45 s", "D": "60 s" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["72 km/hr = 72 × 5/18 = 20 m/s", "Time = Distance ÷ Speed", "Time = 600 ÷ 20 = 30 seconds"], "answer": "30 seconds" }
+  },
+  {
+    "qno": 22,
+    "question": "A runner speed is 5 m/s. How many minutes will it take to cover 3 km?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the distance in km?", "type": "mcq", "options": { "A": "5", "B": "3", "C": "3000", "D": "0.3" }, "solution": "B" },
+        { "qn": 2, "question": "What is the speed in m/s?", "type": "mcq", "options": { "A": "3", "B": "5", "C": "18", "D": "60" }, "solution": "B" },
+        { "qn": 3, "question": "Convert 3 km to meters:", "type": "mcq", "options": { "A": "300 m", "B": "3000 m", "C": "30 m", "D": "30000 m" }, "solution": "B" },
+        { "qn": 4, "question": "Which conversion is better for finding minutes?", "type": "mcq", "options": { "A": "km to m", "B": "m/s to km/hr", "C": "Both work", "D": "Neither" }, "solution": "C" },
+        { "qn": 5, "question": "Are units in the question mixed?", "type": "mcq", "options": { "A": "Yes, m/s and km", "B": "No", "C": "Only time is mixed", "D": "Distance is correct" }, "solution": "A" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is the target unit for time?", "type": "mcq", "options": { "A": "Seconds", "B": "Minutes", "C": "Hours", "D": "Days" }, "solution": "B" },
+      { "qn": 2, "question": "Time in seconds (3000m ÷ 5m/s):", "type": "mcq", "options": { "A": "600 s", "B": "15000 s", "C": "15 s", "D": "60 s" }, "solution": "A" },
+      { "qn": 3, "question": "Convert 600 seconds to minutes:", "type": "mcq", "options": { "A": "5 min", "B": "10 min", "C": "60 min", "D": "1 min" }, "solution": "B" },
+      { "qn": 4, "question": "What divisor is used for sec to min?", "type": "mcq", "options": { "A": "10", "B": "60", "C": "100", "D": "3600" }, "solution": "B" },
+      { "qn": 5, "question": "Final answer in minutes?", "type": "mcq", "options": { "A": "5", "B": "10", "C": "15", "D": "20" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["3 km = 3000 m", "Time in sec = 3000 ÷ 5 = 600 seconds", "Time in min = 600 ÷ 60 = 10 minutes"], "answer": "10 minutes" }
+  },
+  {
+    "qno": 23,
+    "question": "A train 300m long passes a signal post at 54 km/hr. How many seconds does it take?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the length (distance) to cover?", "type": "mcq", "options": { "A": "54 m", "B": "300 m", "C": "15 m", "D": "20 m" }, "solution": "B" },
+        { "qn": 2, "question": "What is the speed of the train?", "type": "mcq", "options": { "A": "300 km/hr", "B": "54 km/hr", "C": "54 m/s", "D": "15 km/hr" }, "solution": "B" },
+        { "qn": 3, "question": "Convert 54 km/hr to m/s:", "type": "mcq", "options": { "A": "10 m/s", "B": "15 m/s", "C": "20 m/s", "D": "25 m/s" }, "solution": "B" },
+        { "qn": 4, "question": "What represents the distance when passing a post?", "type": "mcq", "options": { "A": "Post height", "B": "Train length", "C": "Both", "D": "Post width" }, "solution": "B" },
+        { "qn": 5, "question": "Is 54 divisible by 18?", "type": "mcq", "options": { "A": "Yes, 3 times", "B": "No", "C": "Yes, 2 times", "D": "Yes, 4 times" }, "solution": "A" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "Task?", "type": "mcq", "options": { "A": "Find Distance", "B": "Find Time in sec", "C": "Find Speed", "D": "Find Acceleration" }, "solution": "B" },
+      { "qn": 2, "question": "Numerator in the formula?", "type": "mcq", "options": { "A": "15", "B": "300", "C": "54", "D": "18" }, "solution": "B" },
+      { "qn": 3, "question": "Denominator (Speed in m/s)?", "type": "mcq", "options": { "A": "54", "B": "15", "C": "300", "D": "5" }, "solution": "B" },
+      { "qn": 4, "question": "300 ÷ 15 equals?", "type": "mcq", "options": { "A": "10", "B": "20", "C": "30", "D": "40" }, "solution": "B" },
+      { "qn": 5, "question": "Final time in seconds?", "type": "mcq", "options": { "A": "15 s", "B": "20 s", "C": "25 s", "D": "30 s" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["54 km/hr = 54 × 5/18 = 15 m/s", "Time = 300 ÷ 15 = 20 seconds"], "answer": "20 seconds" }
+  },
+  {
+    "qno": 24,
+    "question": "A cyclist travels at a speed of 12 km/hr. How much time will it take to cover 18 km?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the speed?", "type": "mcq", "options": { "A": "18 km/hr", "B": "12 km/hr", "C": "1.5 km/hr", "D": "12 m/s" }, "solution": "B" },
+        { "qn": 2, "question": "What is the distance?", "type": "mcq", "options": { "A": "12 km", "B": "18 km", "C": "30 km", "D": "6 km" }, "solution": "B" },
+        { "qn": 3, "question": "Formula to be used?", "type": "mcq", "options": { "A": "D/S", "B": "S/D", "C": "D*S", "D": "D+S" }, "solution": "A" },
+        { "qn": 4, "question": "Are units km and km/hr?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "Partially", "D": "Need conversion" }, "solution": "A" },
+        { "qn": 5, "question": "What is the simplest ratio of 18/12?", "type": "mcq", "options": { "A": "2/3", "B": "3/2", "C": "1/2", "D": "4/3" }, "solution": "B" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "Calculated time in hours?", "type": "mcq", "options": { "A": "1.2 hr", "B": "1.5 hr", "C": "2 hr", "D": "0.75 hr" }, "solution": "B" },
+      { "qn": 2, "question": "How to convert 1.5 hours to minutes?", "type": "mcq", "options": { "A": "1.5 × 60", "B": "1.5 ÷ 60", "C": "1.5 + 60", "D": "1.5 × 100" }, "solution": "A" },
+      { "qn": 3, "question": "What is 1.5 × 60?", "type": "mcq", "options": { "A": "60", "B": "90", "C": "120", "D": "75" }, "solution": "B" },
+      { "qn": 4, "question": "What is the fraction of an hour for 30 mins?", "type": "mcq", "options": { "A": "1/4", "B": "1/2", "C": "1/3", "D": "3/4" }, "solution": "B" },
+      { "qn": 5, "question": "Final time in minutes?", "type": "mcq", "options": { "A": "80 min", "B": "90 min", "C": "100 min", "D": "120 min" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["Time = 18 ÷ 12 = 1.5 hours", "1.5 hours = 1 hr 30 mins = 90 minutes"], "answer": "1.5 hours (90 minutes)" }
+  },
+  {
+    "qno": 25,
+    "question": "A car moves at 90 km/hr. How long (in minutes) will it take to cover 15 km?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "Speed given?", "type": "mcq", "options": { "A": "15 km/hr", "B": "90 km/hr", "C": "1.5 km/hr", "D": "90 m/s" }, "solution": "B" },
+        { "qn": 2, "question": "Distance given?", "type": "mcq", "options": { "A": "90 km", "B": "15 km", "C": "6 km", "D": "150 km" }, "solution": "B" },
+        { "qn": 3, "question": "Initial formula result unit?", "type": "mcq", "options": { "A": "Minutes", "B": "Hours", "C": "Seconds", "D": "km" }, "solution": "B" },
+        { "qn": 4, "question": "Is 15 smaller than 90?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "Equal", "D": "Twice" }, "solution": "A" },
+        { "qn": 5, "question": "What is 15/90 simplified?", "type": "mcq", "options": { "A": "1/3", "B": "1/6", "C": "1/4", "D": "1/5" }, "solution": "B" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is the time in hours?", "type": "mcq", "options": { "A": "1/3 hr", "B": "1/6 hr", "C": "1/4 hr", "D": "1 hr" }, "solution": "B" },
+      { "qn": 2, "question": "Conversion from hour to minute?", "type": "mcq", "options": { "A": "× 60", "B": "÷ 60", "C": "× 100", "D": "÷ 10" }, "solution": "A" },
+      { "qn": 3, "question": "What is (1/6) × 60?", "type": "mcq", "options": { "A": "6", "B": "10", "C": "15", "D": "60" }, "solution": "B" },
+      { "qn": 4, "question": "Numerical value of result?", "type": "mcq", "options": { "A": "10", "B": "15", "C": "20", "D": "25" }, "solution": "A" },
+      { "qn": 5, "question": "Final time?", "type": "mcq", "options": { "A": "5 min", "B": "10 min", "C": "15 min", "D": "20 min" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["Time = 15 ÷ 90 = 1/6 hours", "Time in min = (1/6) × 60 = 10 minutes"], "answer": "10 minutes" }
+  },
+  {
+    "qno": 26,
+    "question": "A truck travels at a constant speed of 45 km/hr for 6 hours. Find the total distance covered.",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the speed of the truck?", "type": "mcq", "options": { "A": "6 km/hr", "B": "45 km/hr", "C": "270 km/hr", "D": "45 m/s" }, "solution": "B" },
+        { "qn": 2, "question": "What is the given time?", "type": "mcq", "options": { "A": "45 hours", "B": "6 minutes", "C": "6 hours", "D": "60 hours" }, "solution": "C" },
+        { "qn": 3, "question": "What quantities are provided?", "type": "mcq", "options": { "A": "Distance and Time", "B": "Speed and Time", "C": "Distance and Speed", "D": "Only Speed" }, "solution": "B" },
+        { "qn": 4, "question": "Are the units compatible (km/hr and hours)?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "Need to convert to m/s", "D": "Need to convert to minutes" }, "solution": "A" },
+        { "qn": 5, "question": "Which vehicle is mentioned in the problem?", "type": "mcq", "options": { "A": "Car", "B": "Bus", "C": "Truck", "D": "Train" }, "solution": "C" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is required to be found?", "type": "mcq", "options": { "A": "Speed", "B": "Time", "C": "Distance", "D": "Acceleration" }, "solution": "C" },
+      { "qn": 2, "question": "Which formula will be used?", "type": "mcq", "options": { "A": "Distance = Speed ÷ Time", "B": "Distance = Speed × Time", "C": "Distance = Time ÷ Speed", "D": "Distance = Speed + Time" }, "solution": "B" },
+      { "qn": 3, "question": "What is the numerical product of 45 and 6?", "type": "mcq", "options": { "A": "240", "B": "270", "C": "300", "D": "210" }, "solution": "B" },
+      { "qn": 4, "question": "What unit will the answer be in?", "type": "mcq", "options": { "A": "m", "B": "km", "C": "km/hr", "D": "hr" }, "solution": "B" },
+      { "qn": 5, "question": "What is the final distance?", "type": "mcq", "options": { "A": "270 km", "B": "270 m", "C": "7.5 km", "D": "51 km" }, "solution": "A" }
+    ],
+    "solution": { "steps": ["Distance = Speed × Time", "Distance = 45 × 6 = 270 km"], "answer": "270 km" }
+  },
+  {
+    "qno": 27,
+    "question": "A sprinter runs at a speed of 8 m/s for 15 seconds. How far does he run?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the sprinter's speed?", "type": "mcq", "options": { "A": "15 m/s", "B": "8 m/s", "C": "120 m/s", "D": "8 km/hr" }, "solution": "B" },
+        { "qn": 2, "question": "What is the time duration?", "type": "mcq", "options": { "A": "15 minutes", "B": "15 seconds", "C": "8 seconds", "D": "1.5 seconds" }, "solution": "B" },
+        { "qn": 3, "question": "In what unit is the speed given?", "type": "mcq", "options": { "A": "km/hr", "B": "m/s", "C": "m/min", "D": "km/s" }, "solution": "B" },
+        { "qn": 4, "question": "Is any unit conversion needed?", "type": "mcq", "options": { "A": "Yes, s to hr", "B": "Yes, m to km", "C": "No", "D": "Yes, m/s to km/hr" }, "solution": "C" },
+        { "qn": 5, "question": "What is the value of time?", "type": "mcq", "options": { "A": "8", "B": "15", "C": "120", "D": "1" }, "solution": "B" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What are we calculating?", "type": "mcq", "options": { "A": "Time", "B": "Distance", "C": "Speed", "D": "Velocity" }, "solution": "B" },
+      { "qn": 2, "question": "Which operation is required for 8 and 15?", "type": "mcq", "options": { "A": "Division", "B": "Multiplication", "C": "Addition", "D": "Subtraction" }, "solution": "B" },
+      { "qn": 3, "question": "What is 8 multiplied by 15?", "type": "mcq", "options": { "A": "100", "B": "110", "C": "120", "D": "130" }, "solution": "C" },
+      { "qn": 4, "question": "What will be the unit of the final distance?", "type": "mcq", "options": { "A": "Kilometers", "B": "Meters", "C": "Seconds", "D": "m/s" }, "solution": "B" },
+      { "qn": 5, "question": "What is the final result?", "type": "mcq", "options": { "A": "120 m", "B": "120 km", "C": "1.8 m", "D": "23 m" }, "solution": "A" }
+    ],
+    "solution": { "steps": ["Distance = Speed × Time", "Distance = 8 × 15 = 120 m"], "answer": "120 meters" }
+  },
+  {
+    "qno": 28,
+    "question": "A car travels at a speed of 60 km/hr for 45 minutes. Find the distance covered in km.",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the speed of the car?", "type": "mcq", "options": { "A": "60 km/hr", "B": "45 km/hr", "C": "60 m/s", "D": "1 km/min" }, "solution": "A" },
+        { "qn": 2, "question": "What is the given time?", "type": "mcq", "options": { "A": "45 hours", "B": "45 minutes", "C": "60 minutes", "D": "0.45 hours" }, "solution": "B" },
+        { "qn": 3, "question": "Is the time unit (minutes) compatible with the speed unit (km/hr)?", "type": "mcq", "options": { "A": "Yes", "B": "No, must convert minutes to hours", "C": "No, must convert km to m", "D": "No, must convert hr to sec" }, "solution": "B" },
+        { "qn": 4, "question": "How do you convert 45 minutes to hours?", "type": "mcq", "options": { "A": "45 × 60", "B": "45 ÷ 60", "C": "45 ÷ 100", "D": "45 × 12" }, "solution": "B" },
+        { "qn": 5, "question": "What is 45/60 simplified?", "type": "mcq", "options": { "A": "1/2", "B": "3/4", "C": "2/3", "D": "4/5" }, "solution": "B" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is the goal of the problem?", "type": "mcq", "options": { "A": "Find Speed", "B": "Find Distance", "C": "Find Time", "D": "Find Fuel" }, "solution": "B" },
+      { "qn": 2, "question": "Which formula is used?", "type": "mcq", "options": { "A": "S × T", "B": "S ÷ T", "C": "T ÷ S", "D": "S + T" }, "solution": "A" },
+      { "qn": 3, "question": "What is the time value in hours?", "type": "mcq", "options": { "A": "0.45", "B": "0.75", "C": "0.60", "D": "1.25" }, "solution": "B" },
+      { "qn": 4, "question": "Calculate 60 × 0.75 (or 60 × 3/4):", "type": "mcq", "options": { "A": "40", "B": "45", "C": "50", "D": "55" }, "solution": "B" },
+      { "qn": 5, "question": "What is the final distance in km?", "type": "mcq", "options": { "A": "45 km", "B": "60 km", "C": "2700 km", "D": "15 km" }, "solution": "A" }
+    ],
+    "solution": { "steps": ["Time = 45/60 = 0.75 hours", "Distance = 60 × 0.75 = 45 km"], "answer": "45 km" }
+  },
+  {
+    "qno": 29,
+    "question": "A cyclist rides at a speed of 12 m/s for 10 minutes. How many kilometers does he travel?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the cyclist's speed?", "type": "mcq", "options": { "A": "10 m/s", "B": "12 m/s", "C": "12 km/hr", "D": "1.2 m/s" }, "solution": "B" },
+        { "qn": 2, "question": "What is the time in minutes?", "type": "mcq", "options": { "A": "10", "B": "60", "C": "12", "D": "1" }, "solution": "A" },
+        { "qn": 3, "question": "What is the time in seconds?", "type": "mcq", "options": { "A": "10 s", "B": "100 s", "C": "600 s", "D": "3600 s" }, "solution": "C" },
+        { "qn": 4, "question": "Is the speed in km/hr or m/s?", "type": "mcq", "options": { "A": "km/hr", "B": "m/s", "C": "m/min", "D": "km/min" }, "solution": "B" },
+        { "qn": 5, "question": "How do you convert minutes to seconds?", "type": "mcq", "options": { "A": "Divide by 60", "B": "Multiply by 60", "C": "Multiply by 100", "D": "Divide by 3600" }, "solution": "B" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is the required unit for the final answer?", "type": "mcq", "options": { "A": "Meters", "B": "Kilometers", "C": "Minutes", "D": "m/s" }, "solution": "B" },
+      { "qn": 2, "question": "Calculate distance in meters first (12 × 600):", "type": "mcq", "options": { "A": "1200", "B": "7200", "C": "6000", "D": "720" }, "solution": "B" },
+      { "qn": 3, "question": "What is the conversion factor from meters to kilometers?", "type": "mcq", "options": { "A": "Multiply by 1000", "B": "Divide by 1000", "C": "Divide by 100", "D": "Multiply by 60" }, "solution": "B" },
+      { "qn": 4, "question": "What is 7200 ÷ 1000?", "type": "mcq", "options": { "A": "72", "B": "7.2", "C": "0.72", "D": "720" }, "solution": "B" },
+      { "qn": 5, "question": "What is the final distance in km?", "type": "mcq", "options": { "A": "7.2 km", "B": "12 km", "C": "6 km", "D": "72 km" }, "solution": "A" }
+    ],
+    "solution": { "steps": ["Time = 10 × 60 = 600 s", "Distance = 12 × 600 = 7200 m", "7200 m = 7.2 km"], "answer": "7.2 km" }
+  },
+  {
+    "qno": 30,
+    "question": "An airplane flies at a speed of 800 km/hr for 2.5 hours. Find the distance between the two cities.",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the speed of the plane?", "type": "mcq", "options": { "A": "800 km/hr", "B": "2.5 km/hr", "C": "2000 km/hr", "D": "800 m/s" }, "solution": "A" },
+        { "qn": 2, "question": "What is the flight time?", "type": "mcq", "options": { "A": "2 hours", "B": "2.5 hours", "C": "25 minutes", "D": "2.5 minutes" }, "solution": "B" },
+        { "qn": 3, "question": "Are units km/hr and hours compatible?", "type": "mcq", "options": { "A": "Yes", "B": "No", "C": "Need m/s", "D": "Need minutes" }, "solution": "A" },
+        { "qn": 4, "question": "What is 2.5 hours in mixed form?", "type": "mcq", "options": { "A": "2 hr 5 min", "B": "2 hr 30 min", "C": "2 hr 50 min", "D": "3 hours" }, "solution": "B" },
+        { "qn": 5, "question": "What quantity is being asked for?", "type": "mcq", "options": { "A": "Time", "B": "Speed", "C": "Distance", "D": "Altitude" }, "solution": "C" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "Which formula should be used?", "type": "mcq", "options": { "A": "D = S × T", "B": "D = S ÷ T", "C": "D = T ÷ S", "D": "D = S + T" }, "solution": "A" },
+      { "qn": 2, "question": "What is the calculation to perform?", "type": "mcq", "options": { "A": "800 + 2.5", "B": "800 ÷ 2.5", "C": "800 × 2.5", "D": "2.5 ÷ 800" }, "solution": "C" },
+      { "qn": 3, "question": "What is 800 × 2?", "type": "mcq", "options": { "A": "1200", "B": "1600", "C": "2000", "D": "800" }, "solution": "B" },
+      { "qn": 4, "question": "What is half of 800?", "type": "mcq", "options": { "A": "200", "B": "300", "C": "400", "D": "500" }, "solution": "C" },
+      { "qn": 5, "question": "What is the total distance (1600 + 400)?", "type": "mcq", "options": { "A": "1800 km", "B": "2000 km", "C": "2200 km", "D": "2500 km" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["Distance = Speed × Time", "Distance = 800 × 2.5 = 2000 km"], "answer": "2000 km" }
+  },
+  {
+    "qno": 31,
+    "question": "A bullet train travels at 300 km/hr. How much distance does it cover in 20 minutes?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the train's speed?", "type": "mcq", "options": { "A": "300 km/hr", "B": "20 km/hr", "C": "300 m/s", "D": "30 km/hr" }, "solution": "A" },
+        { "qn": 2, "question": "What is the time given?", "type": "mcq", "options": { "A": "20 hours", "B": "20 minutes", "C": "2 minutes", "D": "20 seconds" }, "solution": "B" },
+        { "qn": 3, "question": "What is 20 minutes as a fraction of an hour?", "type": "mcq", "options": { "A": "1/2", "B": "1/3", "C": "1/4", "D": "1/5" }, "solution": "B" },
+        { "qn": 4, "question": "Is conversion of time necessary?", "type": "mcq", "options": { "A": "No", "B": "Yes, to hours", "C": "Yes, to seconds", "D": "No, distance is enough" }, "solution": "B" },
+        { "qn": 5, "question": "What is 20 divided by 60?", "type": "mcq", "options": { "A": "0.2", "B": "0.33", "C": "0.5", "D": "0.25" }, "solution": "B" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "Task?", "type": "mcq", "options": { "A": "Find Speed", "B": "Find Distance", "C": "Find Time", "D": "Find Acceleration" }, "solution": "B" },
+      { "qn": 2, "question": "Calculation to find distance?", "type": "mcq", "options": { "A": "300 × (20/60)", "B": "300 ÷ 20", "C": "20 ÷ 300", "D": "300 + 20" }, "solution": "A" },
+      { "qn": 3, "question": "What is 300 ÷ 3?", "type": "mcq", "options": { "A": "30", "B": "100", "C": "150", "D": "90" }, "solution": "B" },
+      { "qn": 4, "question": "What will be the unit of result?", "type": "mcq", "options": { "A": "km/hr", "B": "km", "C": "m", "D": "hr" }, "solution": "B" },
+      { "qn": 5, "question": "Final distance covered?", "type": "mcq", "options": { "A": "60 km", "B": "100 km", "C": "150 km", "D": "20 km" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["Time = 20/60 = 1/3 hour", "Distance = 300 × 1/3 = 100 km"], "answer": "100 km" }
+  },
+  {
+    "qno": 32,
+    "question": "A bird flies at a speed of 25 m/s for 1 hour. What is the total distance covered in km?",
+    "questionlist": {
+      "given": [
+        { "qn": 1, "question": "What is the speed of the bird?", "type": "mcq", "options": { "A": "25 km/hr", "B": "25 m/s", "C": "1 m/s", "D": "250 m/s" }, "solution": "B" },
+        { "qn": 2, "question": "What is the time duration?", "type": "mcq", "options": { "A": "1 minute", "B": "1 hour", "C": "1 second", "D": "60 seconds" }, "solution": "B" },
+        { "qn": 3, "question": "How many seconds are in 1 hour?", "type": "mcq", "options": { "A": "60", "B": "360", "C": "3600", "D": "1000" }, "solution": "C" },
+        { "qn": 4, "question": "What is 25 m/s in km/hr?", "type": "mcq", "options": { "A": "90 km/hr", "B": "100 km/hr", "C": "50 km/hr", "D": "75 km/hr" }, "solution": "A" },
+        { "qn": 5, "question": "Which conversion factor is used for m/s to km/hr?", "type": "mcq", "options": { "A": "5/18", "B": "18/5", "C": "60", "D": "3.6" }, "solution": "B" }
+      ]
+    },
+    "tofind": [
+      { "qn": 1, "question": "What is the goal?", "type": "mcq", "options": { "A": "Distance in meters", "B": "Distance in km", "C": "Time in sec", "D": "Speed in km/hr" }, "solution": "B" },
+      { "qn": 2, "question": "Distance in meters (25 × 3600)?", "type": "mcq", "options": { "A": "9000", "B": "90000", "C": "2500", "D": "36000" }, "solution": "B" },
+      { "qn": 3, "question": "Alternatively, Speed in km/hr × Time in hr:", "type": "mcq", "options": { "A": "90 × 1", "B": "25 × 1", "C": "90 ÷ 1", "D": "25 × 3.6" }, "solution": "A" },
+      { "qn": 4, "question": "What is 90000 m in km?", "type": "mcq", "options": { "A": "9 km", "B": "90 km", "C": "900 km", "D": "0.9 km" }, "solution": "B" },
+      { "qn": 5, "question": "Final distance?", "type": "mcq", "options": { "A": "25 km", "B": "90 km", "C": "100 km", "D": "36 km" }, "solution": "B" }
+    ],
+    "solution": { "steps": ["25 m/s = 25 × 18/5 = 90 km/hr", "Distance = 90 km/hr × 1 hour = 90 km"], "answer": "90 km" }
   }
 ]
