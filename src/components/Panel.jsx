@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import Split from "react-split";
 import DTS from '../NumericalSet/DTS'
 import RatioAndProportion from '../NumericalSet/RatioAndProportion';
@@ -6,6 +7,10 @@ import Probability from '../NumericalSet/Probability';
 import SimpleInterest from '../NumericalSet/SimpleInterest';
 import StatisticsGraphical from '../NumericalSet/StatisticsGraphical';
 import StatisticsNumerical from'../NumericalSet/StatisticsNumerical';
+
+import {FaPlay} from 'react-icons/fa'
+import {RiRefreshLine} from 'react-icons/ri'
+import {IoIosArrowDown} from 'react-icons/io'
 
 const Panel = ({ Topic }) => {
 
@@ -18,9 +23,43 @@ const Panel = ({ Topic }) => {
     "Statistics-Numerical": <StatisticsNumerical />
   };
 
+    const [currentno,setCurrentno] = useState(0);
+
+        const handleplay = () =>
+    {
+      console.log("play");
+      
+    }
+
   return (
     <>
     <div className="h-screen w-full bg-white">
+{/* 
+      Start of navigation panel */}
+                  <div className="flex flex-row items-center justify-between px-5 bg-blue-400 w-full">
+                        <div className="flex flex-row items-center">
+                        <IoIosArrowDown />
+                        <h2 className="sticky top-0 bg-base-100 p-3 font-semibold text-black">
+                          Exercises
+                        </h2>
+                        </div>
+                        <div className="flex flex-row items-center space-x-3">
+                      
+                        <button className="text-white bg-black rounded-xl px-3" onClick={() => setCurrentno((prev) => Math.max(prev - 1, 0))}>
+                          prev
+                          </button>
+                            <FaPlay onClick={handleplay} className="cursor-pointer"/>
+                        <RiRefreshLine />
+                        <button className="text-white bg-black rounded-xl px-3"  onClick={() =>
+    setCurrentno((prev) => Math.min(prev + 1, games.length - 1))
+  } >
+                          Next
+                          </button>
+                          {}
+                        </div>
+              </div>
+{/* End of navigation panel */} 
+
       {/* ✅ Desktop Split View */}
       <div className="hidden md:block h-full">
         <Split
@@ -46,13 +85,17 @@ const Panel = ({ Topic }) => {
           </div>
 
           {/* Right Panel */}
-          <div className="h-full overflow-hidden bg-white">
-            <div className="bg-base-100 rounded-2xl shadow-lg overflow-hidden flex flex-col h-full">
-              <div className="overflow-y-auto p-3 bg-white">
-                {/* {renderRight} */}
-              </div>
-            </div>
+          <div className="h-full overflow-hidden bg-grey-200">
+           
+
+
+
           </div>
+
+
+
+
+
         </Split>
       </div>
 
