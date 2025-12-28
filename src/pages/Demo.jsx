@@ -12,7 +12,7 @@ const Demo = () => {
     const [active,setActive] = useState("");    
 
   return (
-    <div className="flex flex-col justify-center mt-20">
+    <div className="flex flex-col justify-center mt-12">
         <div className="flex flex-col justify-center">
             {/*Tabs*/}
             <div className="flex flex-row border-2 border-base-300 bg-white">
@@ -30,7 +30,7 @@ const Demo = () => {
             {/*Body*/}
             <div>
                   {/* Dynamic content renders here */}
-      <div className="mt-4 bg-white p-4 rounded shadow">
+      <div className=" rounded shadow">
         <Outlet />
       </div>
 

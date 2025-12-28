@@ -22,9 +22,9 @@ const Numerical = () => {
   const arr = Object.keys(topicComponents);
 
   return (
-    <div className="min-h-screen bg-blue-100 p-4">
+    <div className="min-h-screen bg-blue-100 ">
       {!selectedTopic ? (
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap gap-4 p-4">
           {arr.map((topic, key) => (
             <div
               className="shadow-xl h-[100px] w-[150px] p-2 bg-white flex justify-center items-center text-center cursor-pointer rounded-lg"

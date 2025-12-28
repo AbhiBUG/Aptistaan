@@ -26,9 +26,7 @@ const Panel = ({ Topic }) => {
 
   const [currentno, setCurrentno] = useState(0);
 
-  const handleplay = () => {
-    console.log("play");
-  };
+ const [buttonState, setButtonState] = useState(0);
 
   /* ✅ Select component dynamically */
   const SelectedTopicComponent = topicComponents[Topic];
@@ -53,7 +51,7 @@ const Panel = ({ Topic }) => {
             Prev
           </button>
 
-          <FaPlay onClick={handleplay} className="cursor-pointer" />
+          <FaPlay onClick={()=>setButtonState(1)} className="cursor-pointer" />
 
           <RiRefreshLine />
 
@@ -94,12 +92,13 @@ const Panel = ({ Topic }) => {
           </div>
 
           {/* 🔹 Right Panel */}
-          <div className="h-full overflow-hidden bg-gray-200">
+          <div className="h-full overflow-y-auto bg-gray-200">
             
             {SelectedTopicComponent && (
               <SelectedTopicComponent
                 panel={1}
                 qno={currentno}
+                buttonState={buttonState}
               />)}
             {/* Future use */}
 
