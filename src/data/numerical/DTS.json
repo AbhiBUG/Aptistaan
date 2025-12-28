@@ -1,33 +1,240 @@
-{
-    {
-  "qno": 1,
-  "question": "A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour",
-  "questionlist": {
-    "given": {
-      "type": "mcq",
-      "options": {
-        "A": "3.6",
-        "B": "7.2",
-        "C": "8.4",
-        "D": "10"
+[
+  {
+    "qno": 1,
+    "question": "A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour",
+    "questionlist": {
+      "given": {
+        "type": "mcq",
+        "options": {
+          "A": "3.6",
+          "B": "7.2",
+          "C": "8.4",
+          "D": "10"
+        }
       }
     },
     "tofind": "speed in km per hour",
     "solution": {
       "steps": [
-        "Convert distance from meters to kilometers: 600 m = 0.6 km",
-        "Convert time from minutes to hours: 5 minutes = 5/60 hours = 1/12 hour",
-        "Speed = Distance / Time",
-        "Speed = 0.6 ÷ (1/12) = 7.2 km/h"
+        "600 m = 0.6 km",
+        "5 minutes = 1/12 hour",
+        "Speed = 0.6 ÷ (1/12)"
       ],
       "correctOption": "B",
       "answer": "7.2 km per hour"
     }
+  },
+  {
+    "qno": 2,
+    "question": "A car travels 120 km in 2 hours. What is its speed?",
+    "questionlist": {
+      "given": {
+        "type": "mcq",
+        "options": {
+          "A": "40",
+          "B": "50",
+          "C": "60",
+          "D": "70"
+        }
+      }
+    },
+    "tofind": "speed in km per hour",
+    "solution": {
+      "steps": [
+        "Speed = Distance / Time",
+        "Speed = 120 ÷ 2"
+      ],
+      "correctOption": "C",
+      "answer": "60 km per hour"
+    }
+  },
+  {
+    "qno": 3,
+    "question": "A train covers 300 km in 5 hours. Find its speed.",
+    "questionlist": {
+      "given": {
+        "type": "mcq",
+        "options": {
+          "A": "50",
+          "B": "55",
+          "C": "60",
+          "D": "65"
+        }
+      }
+    },
+    "tofind": "speed in km per hour",
+    "solution": {
+      "steps": [
+        "Speed = 300 ÷ 5"
+      ],
+      "correctOption": "C",
+      "answer": "60 km per hour"
+    }
+  },
+  {
+    "qno": 4,
+    "question": "A cyclist travels 15 km in 30 minutes. What is his speed?",
+    "questionlist": {
+      "given": {
+        "type": "mcq",
+        "options": {
+          "A": "20",
+          "B": "25",
+          "C": "30",
+          "D": "35"
+        }
+      }
+    },
+    "tofind": "speed in km per hour",
+    "solution": {
+      "steps": [
+        "30 minutes = 0.5 hour",
+        "Speed = 15 ÷ 0.5"
+      ],
+      "correctOption": "C",
+      "answer": "30 km per hour"
+    }
+  },
+  {
+    "qno": 5,
+    "question": "A man walks at 5 km/h. How much distance will he cover in 2 hours?",
+    "questionlist": {
+      "given": {
+        "type": "mcq",
+        "options": {
+          "A": "8",
+          "B": "9",
+          "C": "10",
+          "D": "12"
+        }
+      }
+    },
+    "tofind": "distance in km",
+    "solution": {
+      "steps": [
+        "Distance = Speed × Time",
+        "Distance = 5 × 2"
+      ],
+      "correctOption": "C",
+      "answer": "10 km"
+    }
+  },
+  {
+    "qno": 6,
+    "question": "A bike covers 45 km in 1.5 hours. Find its speed.",
+    "questionlist": {
+      "given": {
+        "type": "mcq",
+        "options": {
+          "A": "25",
+          "B": "30",
+          "C": "35",
+          "D": "40"
+        }
+      }
+    },
+    "tofind": "speed in km per hour",
+    "solution": {
+      "steps": [
+        "Speed = 45 ÷ 1.5"
+      ],
+      "correctOption": "B",
+      "answer": "30 km per hour"
+    }
+  },
+  {
+    "qno": 7,
+    "question": "A bus moves at 54 km/h. What is its speed in m/s?",
+    "questionlist": {
+      "given": {
+        "type": "mcq",
+        "options": {
+          "A": "12",
+          "B": "13",
+          "C": "14",
+          "D": "15"
+        }
+      }
+    },
+    "tofind": "speed in m/s",
+    "solution": {
+      "steps": [
+        "Speed in m/s = (km/h × 5) / 18",
+        "Speed = (54 × 5) / 18"
+      ],
+      "correctOption": "D",
+      "answer": "15 m/s"
+    }
+  },
+  {
+    "qno": 8,
+    "question": "A runner covers 400 m in 80 seconds. What is his speed in m/s?",
+    "questionlist": {
+      "given": {
+        "type": "mcq",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "8"
+        }
+      }
+    },
+    "tofind": "speed in m/s",
+    "solution": {
+      "steps": [
+        "Speed = 400 ÷ 80"
+      ],
+      "correctOption": "B",
+      "answer": "5 m/s"
+    }
+  },
+  {
+    "qno": 9,
+    "question": "A train travels at 72 km/h. How far will it go in 30 minutes?",
+    "questionlist": {
+      "given": {
+        "type": "mcq",
+        "options": {
+          "A": "30",
+          "B": "32",
+          "C": "36",
+          "D": "40"
+        }
+      }
+    },
+    "tofind": "distance in km",
+    "solution": {
+      "steps": [
+        "30 minutes = 0.5 hour",
+        "Distance = 72 × 0.5"
+      ],
+      "correctOption": "C",
+      "answer": "36 km"
+    }
+  },
+  {
+    "qno": 10,
+    "question": "A man covers 20 km at 10 km/h. How much time does he take?",
+    "questionlist": {
+      "given": {
+        "type": "mcq",
+        "options": {
+          "A": "1",
+          "B": "1.5",
+          "C": "2",
+          "D": "2.5"
+        }
+      }
+    },
+    "tofind": "time in hours",
+    "solution": {
+      "steps": [
+        "Time = Distance / Speed",
+        "Time = 20 ÷ 10"
+      ],
+      "correctOption": "C",
+      "answer": "2 hours"
+    }
   }
-}
-
-    
-
-
-
-}
+]
